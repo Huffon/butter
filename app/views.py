@@ -140,7 +140,7 @@ def message(request):
 		return JsonResponse(
 			{
 				'message': {
-					'text': emo5+ 'Quiz'+emo5+ '\n' + quizlet + '\n\n\n' + emo4 + 'Hint' +emo4 + '\n' + mean
+					'text': emo5+ 'Quiz'+emo5+ '\n' + quizlet + '\n\n\n' + emo4 + 'Hint' +emo4 + '\n' + mean + '\n\n빈 칸을 채운 완성된 문장으로 이디엄을 완성시켜주세요!'
 				},
 				'keyboard': {
 					'type': 'text'
